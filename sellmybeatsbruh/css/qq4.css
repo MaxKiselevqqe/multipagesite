@@ -1,0 +1,21 @@
+body {
+    background-image: url('background.jpg'); /* замените 'background.jpg' на путь к вашему изображению */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif; /* чтобы текст был легко читаемым */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* чтобы форма была по центру по вертикали */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Прозрачный белый фон контейнера */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Тень */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
