@@ -152,7 +152,7 @@ display: flex;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 100px;
+  grid-gap: 200px;
 }
 
 .product-card {
@@ -176,7 +176,7 @@ display: flex;
 }
 
 .product-title:hover {
-  color: #ba7967;
+  color: aquamarine;
     font-size: 26px;
     transition-duration: 0.6s;
 cursor: pointer;
@@ -199,4 +199,24 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+.carousel slide{
+  box-sizing: content-box;
+}
+}
+.car_gen{ 
+ position: fixed; 
+ top: 20%; 
+ left: 20%; 
+} 
+ 
+.car_gen_2{ 
+ position: fixed; 
+ top: 20%; 
+ left: 60%; 
+} 
+ 
+.block{ 
+ width: 1700px; 
+ height: 960px; 
 }
